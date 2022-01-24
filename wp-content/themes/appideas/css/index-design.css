@@ -1,0 +1,78 @@
+
+.bground {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7fc;
+  color: black;
+  min-width: 1em;
+/*  min-height: 1em; */
+  height: 1.75em; 
+  border-radius: 50px;
+  vertical-align: middle;
+  border: 1px solid #eaecf7;
+}
+
+.bgrounddarknewpost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c1c0df;
+  color: black;
+  height: 1.5em; 
+  width: 1.5em; 
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #8c92c3;
+}
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+   flex-flow: row wrap; 
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  align-items: center;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  text-decoration: none;
+}

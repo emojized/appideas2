@@ -1,0 +1,58 @@
+.buttonstar {
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin 0 0 0 0;
+  background-color: transparent;
+  border: none;
+}
+
+.buttonstar:hover {background-color: transparent;
+}
+
+.buttonstar:active {
+  background-color: transparent;
+}
+
+.star-color-filled {
+  vertical-align: middle;
+  text-align: center;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  margin: 0 1px;
+  border: 1px solid #8c92c3;
+  border-radius: 50%;
+  background-image:
+    linear-gradient(90deg, #c1c0df 100%, transparent 0%);
+}
+
+.star-color-half {
+  vertical-align: middle;
+  text-align: center;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  margin: 0 1px;
+  border-radius: 50%;
+  border: 1px solid #8c92c3;
+  background-image:
+    linear-gradient(-90deg, #e3e4f1 51%, transparent 50%),
+    linear-gradient(90deg, #c1c0df 51%, transparent 50%);
+}
+
+.star-color-empty {
+  vertical-align: middle;
+  text-align: center;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  margin: 0 1px;
+  border-radius: 50%;
+  border: 1px solid #bdbeda;
+  background-image:
+    linear-gradient(90deg, #e3e4f1 100%, transparent 0%);
+
+}
+

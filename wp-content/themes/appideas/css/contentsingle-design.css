@@ -1,0 +1,20 @@
+
+.buttonstar {
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: gold;
+  background-color: transparent;
+  border: none;
+}
+
+.buttonstar:hover {background-color: transparent;
+}
+
+.buttonstar:active {
+  background-color: transparent;
+}
+
+.star-color {
+  color:gold;
+}

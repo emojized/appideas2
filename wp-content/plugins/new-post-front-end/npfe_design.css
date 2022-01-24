@@ -1,0 +1,142 @@
+.bgroundback {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c1c0df;
+  color: black;
+  height: 1.5em; 
+  width: 1.5em; 
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #8c92c3;
+}
+
+.buttonbright {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f7fc;
+  color: black;
+  min-width: 1em;
+/*  min-height: 1em; */
+  height: 1.75em; 
+  border-radius: 50px;
+  vertical-align: middle;
+  border: 1px solid #eaecf7;
+}
+
+.buttondark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c1c0df;
+  color: black;
+  min-width: 1em;
+/*  min-height: 1em; */
+  height: 1.75em; 
+  border-radius: 50px;
+  vertical-align: middle;
+  border: 1px solid #8c92c3;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border-radius: 50px;
+    vertical-align: middle;
+    background-color: #c1c0df;
+    border: 1px solid #8c92c3;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.labeltags {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-left: 3px;
+  margin-right: 6px;
+/*  display: block; */
+}
+
+.labeltags span {
+  position: relative;
+  border: 1px solid #bdc3c7;
+  border-radius: 30px;
+  transition: all 100ms ease-in-out;
+  line-height: 25px;
+  padding: 3px 30px 3px 7px;
+  color: #bdc3c7;
+}
+
+.labeltags span::after, .labeltags span::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 12px;
+  height: 0px;
+  top: 12px;
+  right: 10px;
+  background-color: transparent;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.labeltags span::before {
+  transform: rotate(45deg);
+  transition: transform 200ms ease-in-out, opacity 200ms 100ms ease-in-out;
+}
+
+.labeltags span::after {
+  transform: rotate(-45deg);
+  border-left: 1px solid transparent;
+  transition: transform 200ms ease-in-out, border-color 100ms ease-in-out;
+}
+
+.labeltags input {
+  pointer-events: none;
+  display: none;
+}
+
+.labeltags input:checked + span {
+  background-color: #c1c0df;
+  border-color: #8c92c3;
+  color: #000000;
+}
+
+.labeltags input:checked + span::before {
+  opacity: 0;
+  transform: rotate(180deg);
+}
+
+.labeltags input:checked + span::after {
+  height: 5px;
+  top: 8px;
+  transform: rotate(315deg);
+  border-color: #000000;
+}
