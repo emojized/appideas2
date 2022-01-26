@@ -103,13 +103,15 @@ echo '</div>';
 
 <span style="position: relative; left: -75px; z-index: 2;" class="dashicons dashicons-search"></span>
 
+<!-- Link to profile page -->
 <!-- <a href="<?php esc_attr_e(get_edit_profile_url()); ?>"> -->
-<a href="<?php echo get_site_url(); ?>/?page_id=567">
+<a href="<?php echo get_site_url(); ?>/index.php/profile/">
     <?php echo get_avatar(get_current_user_id(), 26); ?>
 </a>
 
+<!-- Link to new post page -->
 <!-- <a href="<?php // echo get_site_url(); ?>/wp-admin/post-new.php" class="bground">+</a> -->
-<a href="<?php echo get_site_url(); ?>/?page_id=665" class="bgrounddarknewpost">+</a>
+<a href="<?php echo get_site_url(); ?>/index.php/newpost/" class="bgrounddarknewpost">+</a>
 
 
 </div>

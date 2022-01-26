@@ -151,7 +151,7 @@ echo '<input type="hidden" name="check" value="'.$nonce.'" />';
 
     foreach( $categories as $category ) {
 	
-        if ($category->name!=='Uncategorized' and $category->name!=='Designer' and $category->name!=='Entwickler')
+        if ($category->name!=='Uncategorized' and $category->name!=='Designer' and $category->name!=='Entwickler' and $category->name!=='Allgemein')
         {
 
             echo '<label class="labeltags" for="' .$category->term_id .'">';
