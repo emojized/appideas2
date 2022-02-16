@@ -222,13 +222,14 @@ a:active {
         <br>
 
 
+        <!--
         <div class="card" style="margin: auto;">
             <div class="card-body">
-                <h5 class="card-title">Projektstatus</h5>
+                <h5 class="card-title">Projektstatus</h5> -->
 
                 <?php
 
-
+                /*
 	            if (isset($_POST['chosenstage']))
 	            {
 	            	$stage = intval($_POST['chosenstage']);
@@ -289,13 +290,13 @@ a:active {
 
 
 
-
+             */
                 ?>
 
 
-            </div>
+          <!--  </div>
         </div>
-        <br>
+        <br> -->
 
 
 

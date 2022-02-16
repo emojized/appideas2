@@ -101,7 +101,7 @@ echo '</div>';
 
 <input type="text" class="quicksearch bground" size="40" placeholder="  Search..." />
 
-<span style="position: relative; left: -75px; z-index: 2;" class="dashicons dashicons-search"></span>
+<!-- <span style="position: relative; left: -75px; z-index: 2;" class="dashicons dashicons-search"></span> -->
 
 <!-- Link to profile page -->
 <!-- <a href="<?php esc_attr_e(get_edit_profile_url()); ?>"> -->
